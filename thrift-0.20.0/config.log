@@ -30,12 +30,15 @@ Kernel configured for up to 8 processors.
 Processor type: arm64e (ARM64E)
 Processors active: 0 1 2 3 4 5 6 7
 Primary memory available: 8.00 gigabytes
-Default processor set: 594 tasks, 2867 threads, 8 processors
-Load average: 1.75, Mach factor: 6.24
+Default processor set: 601 tasks, 2945 threads, 8 processors
+Load average: 3.16, Mach factor: 6.33
 /bin/machine           = unknown
 /usr/bin/oslevel       = unknown
 /bin/universe          = unknown
 
+PATH: /Users/mohitloganathan/.rbenv/shims
+PATH: /opt/homebrew/opt/ruby/bin
+PATH: /opt/homebrew/opt/ruby/bin
 PATH: /opt/homebrew/opt/bison/bin
 PATH: /usr/local/bin
 PATH: /System/Cryptexes/App/usr/bin
@@ -568,9 +571,9 @@ conftest.c:22:9: note: previous definition is here
 1 warning generated.
 Undefined symbols for architecture arm64:
   "_yywrap", referenced from:
-      _yylex in conftest-083803.o
-      _yylex in conftest-083803.o
-      _main in conftest-083803.o
+      _yylex in conftest-6191ab.o
+      _yylex in conftest-6191ab.o
+      _main in conftest-6191ab.o
 ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:17139: $? = 1
@@ -4584,11 +4587,11 @@ configure:22053: result: no
 configure:22060: checking for pub
 configure:22093: result: no
 configure:22127: checking for ruby
-configure:22145: found /usr/bin/ruby
-configure:22157: result: /usr/bin/ruby
+configure:22145: found /Users/mohitloganathan/.rbenv/shims/ruby
+configure:22157: result: /Users/mohitloganathan/.rbenv/shims/ruby
 configure:22167: checking for bundle
-configure:22185: found /usr/bin/bundle
-configure:22197: result: /usr/bin/bundle
+configure:22185: found /Users/mohitloganathan/.rbenv/shims/bundle
+configure:22197: result: /Users/mohitloganathan/.rbenv/shims/bundle
 configure:22241: checking for go
 configure:22274: result: no
 configure:22470: checking for swift
@@ -8303,7 +8306,7 @@ conftest.cpp:22:9: note: previous definition is here
 1 warning generated.
 Undefined symbols for architecture arm64:
   "__doprnt", referenced from:
-      _main in conftest-810761.o
+      _main in conftest-6c543a.o
 ld: symbol(s) not found for architecture arm64
 clang++: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:26027: $? = 1
@@ -8480,7 +8483,7 @@ conftest.cpp:22:9: note: previous definition is here
 1 warning generated.
 Undefined symbols for architecture arm64:
   "_gethostbyname_r", referenced from:
-      _main in conftest-ddba7f.o
+      _main in conftest-549d1a.o
 ld: symbol(s) not found for architecture arm64
 clang++: error: linker command failed with exit code 1 (use -v to see invocation)
 configure:26084: $? = 1
@@ -9103,8 +9106,11 @@ config.status:1536: creating tutorial/rb/Makefile
 config.status:1536: creating tutorial/rs/Makefile
 config.status:1536: creating tutorial/swift/Makefile
 config.status:1536: creating config.h
+config.status:1717: config.h is unchanged
 config.status:1536: creating lib/cpp/src/thrift/config.h
+config.status:1717: lib/cpp/src/thrift/config.h is unchanged
 config.status:1536: creating lib/c_glib/src/thrift/config.h
+config.status:1717: lib/c_glib/src/thrift/config.h is unchanged
 config.status:1765: executing depfiles commands
 config.status:1765: executing libtool commands
 
@@ -9305,13 +9311,13 @@ ac_cv_lib_pthread_pthread_create=yes
 ac_cv_lib_rt_clock_gettime=no
 ac_cv_lib_socket_setsockopt=no
 ac_cv_objext=o
-ac_cv_path_BUNDLER=/usr/bin/bundle
+ac_cv_path_BUNDLER=/Users/mohitloganathan/.rbenv/shims/bundle
 ac_cv_path_EGREP='/usr/bin/grep -E'
 ac_cv_path_FGREP='/usr/bin/grep -F'
 ac_cv_path_GREP=/usr/bin/grep
 ac_cv_path_PERL=/usr/bin/perl
 ac_cv_path_PYTHON=/usr/bin/python3
-ac_cv_path_RUBY=/usr/bin/ruby
+ac_cv_path_RUBY=/Users/mohitloganathan/.rbenv/shims/ruby
 ac_cv_path_SED=/usr/bin/sed
 ac_cv_path_SWIFT=/usr/bin/swift
 ac_cv_path_ac_pt_PKG_CONFIG=/opt/homebrew/bin/pkg-config
@@ -9436,7 +9442,7 @@ BOOST_LIB_DIR=''
 BOOST_SYSTEM_LDADD=''
 BOOST_TEST_LDADD=''
 BOOST_THREAD_LDADD=''
-BUNDLER='/usr/bin/bundle'
+BUNDLER='/Users/mohitloganathan/.rbenv/shims/bundle'
 CARGO=''
 CC='gcc'
 CCDEPMODE='depmode=gcc3'
@@ -9606,7 +9612,7 @@ QT5_REDUCE_RELOCATIONS_FALSE=''
 QT5_REDUCE_RELOCATIONS_TRUE='#'
 RANLIB='ranlib'
 REBAR=''
-RUBY='/usr/bin/ruby'
+RUBY='/Users/mohitloganathan/.rbenv/shims/ruby'
 RUBY_PREFIX=''
 RUSTC=''
 SBCL=''

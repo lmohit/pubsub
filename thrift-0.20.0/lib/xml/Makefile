@@ -245,7 +245,7 @@ BOOST_LIB_DIR =
 BOOST_SYSTEM_LDADD = 
 BOOST_TEST_LDADD = 
 BOOST_THREAD_LDADD = 
-BUNDLER = /usr/bin/bundle
+BUNDLER = /Users/mohitloganathan/.rbenv/shims/bundle
 CARGO = 
 CC = gcc
 CCDEPMODE = depmode=gcc3
@@ -398,7 +398,7 @@ QT5_LIBS =
 QT5_MOC = 
 RANLIB = ranlib
 REBAR = 
-RUBY = /usr/bin/ruby
+RUBY = /Users/mohitloganathan/.rbenv/shims/ruby
 RUBY_PREFIX = 
 RUSTC = 
 SBCL = 

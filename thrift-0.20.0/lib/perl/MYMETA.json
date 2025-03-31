@@ -1,0 +1,49 @@
+{
+   "abstract" : "Apache Thrift is a software framework for scalable cross-language services development.",
+   "author" : [
+      "Apache Thrift <dev@thrift.apache.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "ExtUtils::MakeMaker version 7.62, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "apache_2_0"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "Thrift",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Bit::Vector" : "0",
+            "Class::Accessor" : "0",
+            "perl" : "5.010000"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::Exception" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "v0.20.0",
+   "x_serialization_backend" : "JSON::PP version 4.06"
+}
